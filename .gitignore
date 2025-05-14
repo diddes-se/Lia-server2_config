@@ -152,7 +152,6 @@ shadow-
 shells
 skel/
 sos/
-ssh/
 ssl/
 subgid
 subgid-
@@ -194,3 +193,14 @@ mecabrc
 mysql/
 php/
 snmp/
+ssh/moduli
+ssh/ssh_config
+ssh/ssh_config.d
+ssh/sshd_config.d
+ssh/ssh_host_ecdsa_key
+ssh/ssh_host_ecdsa_key.pub
+ssh/ssh_host_ed25519_key
+ssh/ssh_host_ed25519_key.pub
+ssh/ssh_host_rsa_key
+ssh/ssh_host_rsa_key.pub
+ssh/ssh_import_id
