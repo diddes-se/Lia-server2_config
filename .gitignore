@@ -83,7 +83,6 @@ localtime
 logcheck/
 login.defs
 logrotate.conf
-logrotate.d/
 lsb-release
 lvm/
 machine-id
@@ -204,3 +203,19 @@ ssh/ssh_host_ed25519_key.pub
 ssh/ssh_host_rsa_key
 ssh/ssh_host_rsa_key.pub
 ssh/ssh_import_id
+logrotate.d/alternatives
+logrotate.d/apport
+logrotate.d/bootlog
+logrotate.d/cloud-init
+logrotate.d/mysql-server
+logrotate.d/ubuntu-pro-client
+logrotate.d/unattended-upgrades
+logrotate.d/zabbix-agent
+logrotate.d/apache2
+logrotate.d/apt
+logrotate.d/btmp
+logrotate.d/dpkg
+logrotate.d/rsyslog
+logrotate.d/ufw
+logrotate.d/wtmp
+logrotate.d/zabbix-server-mysql

@@ -1,0 +1,48 @@
+/var/log/server2/apachectl.log
+/var/log/server2/apparmor.systemd.log
+/var/log/server2/'(cron).log'
+/var/log/server2/cron.log
+/var/log/server2/CRON.log
+/var/log/server2/dbus-daemon.log
+/var/log/server2/dhcpd.log
+/var/log/server2/fwupd.log
+/var/log/server2/fwupdmgr.log
+/var/log/server2/kernel.log
+/var/log/server2/lvm.log
+/var/log/server2/ModemManager.log
+/var/log/server2/multipathd.log
+/var/log/server2/named.log
+/var/log/server2/network-dispatcher.log
+/var/log/server2/PackageKit.log
+/var/log/server2/polkitd.log
+/var/log/server2/postfix.log
+/var/log/server2/postmulti.log
+/var/log/server2/rsyslogd.log
+/var/log/server2/sh.log
+/var/log/server2/snapd-apparmor.log
+/var/log/server2/snapd.log
+/var/log/server2/sshd.log
+/var/log/server2/sudo.log
+/var/log/server2/su.log
+/var/log/server2/systemd-fsck.log
+/var/log/server2/'(systemd).log'
+/var/log/server2/systemd.log
+/var/log/server2/systemd-logind.log
+/var/log/server2/systemd-modules-load.log
+/var/log/server2/systemd-networkd.log
+/var/log/server2/systemd-timesyncd.log
+/var/log/server2/systemd-udevd.log
+/var/log/server2/'(udev-worker).log'
+/var/log/server2/udisksd.log
+{
+	rotate 7
+	daily
+	missingok
+	notifempty
+	compress
+	delaycompress
+	sharedscripts
+	postrotate
+		/usr/lib/rsyslog/rsyslog-rotate
+	endscript
+}

@@ -1,0 +1,19 @@
+/var/log/server1/cron.log
+/var/log/server1/dbus-daemon.log
+/var/log/server1/dhcpd.log
+/var/log/server1/fwupd.log
+/var/log/server1/kernel.log
+/var/log/server1/rsyslogd.log
+/var/log/server1/systemd.log
+{
+	rotate 7
+	daily
+	missingok
+	notifempty
+	compress
+	delaycompress
+	sharedscripts
+	postrotate
+		/usr/lib/rsyslog/rsyslog-rotate
+	endscript
+}
