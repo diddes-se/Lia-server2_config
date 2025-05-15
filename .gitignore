@@ -137,7 +137,6 @@ resolv.conf
 resolvconf/
 rmt
 rpc
-rsyslog.conf
 rsyslog.d/
 screenrc
 security/
