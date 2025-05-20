@@ -218,4 +218,6 @@ logrotate.d/rsyslog
 logrotate.d/ufw
 logrotate.d/wtmp
 logrotate.d/zabbix-server-mysql
+logrotate.d/fail2ban
 fail2ban/
+monit/
