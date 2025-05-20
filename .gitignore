@@ -221,3 +221,13 @@ logrotate.d/zabbix-server-mysql
 logrotate.d/fail2ban
 fail2ban/
 monit/
+bind/bind.keys
+bind/db.0
+bind/db.127
+bind/db.255
+bind/db.empty
+bind/db.local
+bind/named.conf
+bind/named.conf.default-zones
+bind/rndc.key
+bind/zones.rfc1918
