@@ -231,3 +231,8 @@ bind/named.conf
 bind/named.conf.default-zones
 bind/rndc.key
 bind/zones.rfc1918
+zabbix/apache.conf
+zabbix/web/
+zabbix/zabbix_agentd.conf
+zabbix/zabbix_agentd.d/
+zabbix/zabbix_server.d/
