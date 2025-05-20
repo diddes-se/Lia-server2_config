@@ -1,0 +1,9 @@
+/var/log/etcbackup.log
+{
+        rotate 7
+        weekly
+        missingok
+        notifempty
+        compress
+        delaycompress
+}
