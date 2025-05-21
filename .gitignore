@@ -236,3 +236,4 @@ zabbix/web/
 zabbix/zabbix_agentd.conf
 zabbix/zabbix_agentd.d/
 zabbix/zabbix_server.d/
+dhcp/dhclient-exit-hooks.d/
