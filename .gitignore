@@ -163,7 +163,6 @@ supercat/
 sysctl.conf
 sysctl.d/
 sysstat/
-systemd/
 terminfo/
 thermald/
 timezone
@@ -237,3 +236,15 @@ zabbix/zabbix_agentd.conf
 zabbix/zabbix_agentd.d/
 zabbix/zabbix_server.d/
 dhcp/dhclient-exit-hooks.d/
+systemd/journald.conf
+systemd/logind.conf
+systemd/network/
+systemd/networkd.conf
+systemd/pstore.conf
+systemd/resolved.conf
+systemd/sleep.conf
+systemd/system/
+systemd/system.conf
+systemd/system-generators/
+systemd/user/
+systemd/user.conf
